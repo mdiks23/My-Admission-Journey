@@ -74,8 +74,9 @@ h1{
   font-family: Courier New;
   font-size: 20px;
   margin-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   border-block-end: 2px dashed white;
+  
 }
 h2{
   border-block-end: 1px dotted #3ec0926f;
@@ -136,3 +137,75 @@ h2{
     background-size: 100% 80%;
   }
 }
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.time-slot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+.first{
+  margin-top: 20px;
+}
+
+
+.time-slot .time {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #3498db;
+}
+
+.time-slot .activity {
+    font-size: 1.1rem;
+    color: #34495e;
+}
+
+@media screen and (max-width: 768px) {
+    .time-slot {
+        flex-direction: column;
+        text-align: left;
+        gap: 10px;
+    }
+
+    .time-slot .time,
+    .time-slot .activity {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .time-slot {
+        padding: 10px;
+    }
+
+    .time-slot .time,
+    .time-slot .activity {
+        font-size: 0.9rem;
+    }
+  }
