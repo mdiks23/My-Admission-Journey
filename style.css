@@ -1,13 +1,13 @@
 body{
   text-align: center;
-  color: #f3a80a;
+  color: #fefe68;
   background-image: url('/buetMe.png');
   background-position: center;
   background-attachment: fixed;
   background-size: 100% 50%;
   background-repeat: no-repeat;
   background-color: #000000;
-  opacity:0.9;
+  opacity:0.6;
   
 }
 *{
