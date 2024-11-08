@@ -65,7 +65,7 @@ background-size: cover;*/
 }
 a{
   font-size: 20px;
-  color: #ffd300;
+  color: #ffffff;
   font-weight: 1000;
   font-family: Courier New;
   text-decoration: none;
@@ -141,71 +141,3 @@ h2{
 
 
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
-
-
-.schedule {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.time-slot {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #fff;
-
-    padding: 15px 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    align-items: center;
-}
-.first{
-  margin-top: 20px;
-}
-
-
-.time-slot .time {
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: #3498db;
-}
-
-.time-slot .activity {
-    font-size: 1.1rem;
-    color: #34495e;
-}
-
-@media screen and (max-width: 768px) {
-    .time-slot {
-        flex-direction: column;
-        text-align: left;
-        gap: 10px;
-    }
-
-    .time-slot .time,
-    .time-slot .activity {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    .time-slot {
-        padding: 10px;
-    }
-
-    .time-slot .time,
-    .time-slot .activity {
-        font-size: 0.9rem;
-    }
-  }
