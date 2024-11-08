@@ -66,8 +66,8 @@ background-size: cover;*/
 }
 a{
   font-size: 20px;
-  -webkit-text-stroke:1px #fefe68;
-  color: #ffffff;
+  -webkit-text-stroke:0.77px #fefe68;
+  color: #000000;
   font-weight: 1000;
   font-family: Courier New;
   text-decoration: none;
