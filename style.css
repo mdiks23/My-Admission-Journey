@@ -7,7 +7,7 @@ body{
   background-size: 100% 50%;
   background-repeat: no-repeat;
   background-color: #000000;
-  opacity:0.6;
+  opacity:0.8;
   
 }
 *{
@@ -26,14 +26,14 @@ body{
 }
 .class,.exam,.community,.news,.coding{
   display: flex;
-  border-block-end: 1px dotted #3ec0925d;
+  border-block-end: 1px dotted #fefe68;
 }
 .butPlace{
   flex: 1;
   
 }
 .but{
-  border: 1px dashed #777;
+  border: 1px dashed #fefe68;
   width: 100px;
   height: 90px;
   margin-top: 10px;
@@ -48,7 +48,7 @@ background-size: cover;*/
 
 }
 .largebut{
-    border: 1px dashed #777;
+    border: 1px dashed #fefe68;
   width: 150px;
   height: 90px;
   margin-top: 10px;
@@ -57,7 +57,7 @@ background-size: cover;*/
   border-radius: 3%;
 }
 .extraLarge{
-    border: 1px dashed  #777;
+    border: 1px dashed  #fefe68;
     width: 300px;
   height: 90px;
   margin-top: 10px;
@@ -76,11 +76,11 @@ h1{
   font-size: 20px;
   margin-top: 10px;
   padding-bottom: 20px;
-  border-block-end: 2px dashed white;
+  border-block-end: 2px dashed #fefe68;
   
 }
 h2{
-  border-block-end: 1px dotted #3ec0926f;
+  border-block-end: 1px dotted #fefe68;
   font-family: Courier New;
 }
 
